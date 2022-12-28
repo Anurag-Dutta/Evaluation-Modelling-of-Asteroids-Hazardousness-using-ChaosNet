@@ -1,0 +1,75 @@
+==========================
+[ Support Vector Machine ]
+==========================
+
+--------
+TRAINING
+--------
+
+c = 0.1 (c   -   Regularization parameter)
+Training F1 Score = 0.4558545580025394
+
+-------
+TESTING
+-------
+
+Testing F1 Score = 0.45369831100757135
+
+
+==========================
+[ Random Decision Forest ]
+==========================
+
+--------
+TRAINING
+--------
+
+NEST = 100 (NEST   -   The number of trees in the forest)
+MD = 10 (MD   -   The maximum depth of the tree)
+Training F1 Score = 0.7211676343623423
+
+-------
+TESTING
+-------
+
+Testing F1 Score = 0.5381683580397782
+
+
+=================
+[ Decision Tree ]
+=================
+
+--------
+TRAINING
+--------
+
+MD = 1 (MD   -   The maximum depth of the tree)
+MSL = 1 (MSL   -   The minimum number of samples required to be at a leaf node)
+CCP = 0.0 (CCP   -   Complexity parameter used for Minimal Cost-Complexity Pruning)
+Training F1 Score = 0.45493806088302613
+
+-------
+TESTING
+-------
+
+Testing F1 Score = 0.45433391506689935
+
+
+============
+[ ChaosNet ]
+============
+
+--------
+TRAINING
+--------
+
+INA = 0.28 (INA   -   Initial Neural Activity)
+DT = 1 (DT   -   Discrimination Threshold)
+EPS = 0.0 (EPS   -   Noise Intensity)
+Training F1 Score = 0.6628668370508513
+
+-------
+TESTING
+-------
+
+Testing F1 Score = 0.6367705646458083
